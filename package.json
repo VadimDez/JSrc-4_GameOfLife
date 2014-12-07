@@ -1,0 +1,19 @@
+{
+  "name": "TDD_GameOfLife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "karma": "^0.12.28"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.1.3",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
