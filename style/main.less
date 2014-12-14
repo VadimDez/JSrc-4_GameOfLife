@@ -1,0 +1,58 @@
+#grid {
+    div {
+        width: 10px;
+        height: 10px;
+        &.column {
+            float: left;
+        }
+        &.row {
+            border: solid 1px #000000;
+            &.live {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+.commands {
+    margin-bottom: 10px;
+    button {
+        display: inline-block;
+        color: #666;
+        background-color: #eee;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 12px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom-width: 3px;
+        cursor: pointer;
+        &:hover {
+            background-color: #e3e3e3;
+            border-color: rgba(0,0,0,0.5);
+        }
+        &.btn-red {
+            background-color: #E48681;
+            border-color: rgba(0,0,0,0.3);
+            text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+            color: #FFF;
+            &:hover {
+                background-color: #DA4F49;
+                border-color: rgba(0,0,0,0.5);
+            }
+        }
+        &.btn-green {
+            background-color: #2ecc71;
+            border-color: rgba(0,0,0,0.3);
+            text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+            color: #FFF;
+            &:hover {
+                background-color: #3CAB46;
+                border-color: rgba(0,0,0,0.5);
+            }
+        }
+    }
+}

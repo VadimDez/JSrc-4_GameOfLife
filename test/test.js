@@ -242,8 +242,7 @@ describe('check that randomize works', function () {
         var board = new Board(3, 3),
             aliveBefore = 0,
             aliveAfter = 0,
-            r = 0,
-            c = 0;
+            c, r;
         board.randomize();
 
         for (r = 0; r < board.rows; r++) {
